@@ -1,0 +1,9 @@
+# we ignore the dist on our main branch since the
+# bundled files are large and will clog up the repo
+# however, on the gh-pages branch this can be removed
+dist
+
+# this is where the module code lives (webpack in our project)
+# and we don't need to track it on source since the package information
+# is in package.json and you just need to run `npm install` to pull them in
+node_modules

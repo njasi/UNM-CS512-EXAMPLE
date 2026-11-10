@@ -1,0 +1,28 @@
+{
+  "name": "unm-cs512-example",
+  "version": "1.0.0",
+  "description": "example of webpack and stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njasi/UNM-CS512-EXAMPLE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njasi/UNM-CS512-EXAMPLE/issues"
+  },
+  "homepage": "https://github.com/njasi/UNM-CS512-EXAMPLE#readme",
+  "dependencies": {
+    "PotatoEngine": "file:PotatoEngine"
+  },
+  "devDependencies": {
+    "webpack": "^5.111.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
