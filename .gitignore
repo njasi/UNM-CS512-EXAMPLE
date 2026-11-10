@@ -1,7 +1,7 @@
 # we ignore the dist on our main branch since the
 # bundled files are large and will clog up the repo
 # however, on the gh-pages branch this can be removed
-dist
+# dist
 
 # this is where the module code lives (webpack in our project)
 # and we don't need to track it on source since the package information
