@@ -16,8 +16,8 @@ scene.rotationX += Math.PI / 6;
 
 scene.createProgram(
   SHADER_PROGRAM_RAY,
-  "/PotatoEngine/src/shaders/vertex/ray.vert",
-  "/PotatoEngine/src/shaders/fragment/ray.frag",
+  "./PotatoEngine/src/shaders/vertex/ray.vert",
+  "./PotatoEngine/src/shaders/fragment/ray.frag",
   RayShaderProgram,
 );
 
